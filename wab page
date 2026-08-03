@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BGMI Game Login</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background: url("https://via.placeholder.com/1200x700") no-repeat center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            width: 350px;
+            padding: 30px;
+            background: rgba(0,0,0,0.75);
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 0 20px #00ff00;
+        }
+
+        .login-box h1 {
+            color: #ffcc00;
+            font-size: 35px;
+        }
+
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 95%;
+            padding: 12px;
+            background: #ff9900;
+            border: none;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ff6600;
+        }
+
+        .social {
+            margin-top: 15px;
+        }
+
+        .social button {
+            background: #1877f2;
+            margin-top: 10px;
+        }
+
+        .guest {
+            background: #555 !important;
+        }
+
+        p {
+            color: #ddd;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <h1>BGMI</h1>
+    <p>Battle grounde mobile india Login</p>
+
+    <input type="text" placeholder="Player ID / Username">
+
+    <input type="password" placeholder="Password">
+
+    <button>LOGIN</button>
+
+    <div class="social">
+        <button>Login with Facebook</button>
+        <button class="guest">Play as Guest</button>
+    </div>
+
+    <p>Don't have an account? Register</p>
+
+</div>
+
+</body>
+</html>
